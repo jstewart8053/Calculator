@@ -1,5 +1,6 @@
 # Calculator
-Javascript-based Calculator Web App
+Javascript-based Calculator Web App...
+
 To use Calculator, download project files and open Index.html in any modern web browser. You may also visit http://s.codepen.io/jstewart8053/debug/ENbMOg to veiw code source, and live demo of project. Or go to:
 http://codepen.io/jstewart8053 to see all of my projects.
 
