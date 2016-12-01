@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=60%">
+    <link rel="stylesheet" href="calculator/stylesheet.css">
+    <script src="calculator/js.js></script">
+</head>
+<header>
+	<h1 class="animated finite flash">Jen's Calculator </h1>
+</header>
+<body>
+  <div id="div"></div>
+  	<br><br><br>
+  <aside>
+    <div id='operations'>
+      <button onclick="field1.value += '+'">&#43;</button>
+      <button onclick="field1.value += '-'">&#8722;</button>
+      <button onclick="field1.value += '*'">&times;</button>
+      <button onclick="field1.value += '/'">&divide;</button>
+    </div>
+    <div id='calc'>
+      <input type='text' id='field1' /> 
+	  	<br><br>
+      <button onclick="field1.value += '1'">1</button>
+      <button onclick="field1.value += '2'">2</button>
+      <button onclick="field1.value += '3'">3</button>
+      <br><br>
+      <button onclick="field1.value += '4'">4</button>
+      <button onclick="field1.value += '5'">5</button>
+      <button onclick="field1.value += '6'">6</button>
+      <br><br>
+      <button onclick="field1.value += '7'">7</button>
+      <button onclick="field1.value += '8'">8</button>
+      <button onclick="field1.value += '9'">9</button>
+      <br><br>
+      <button onclick="field1.value += '0'">0</button>
+    </div>
+    <div id='misc'>
+      <button onclick="field1.value += '.'">.</button>
+      <button onclick="field1.value =field1.value.substring(0,field1.value.length-1)">&#8592;</button>
+      <button onclick="field1.value = ''">c</button>
+      <button onclick="field1.value = eval(field1.value)">=</button>
+    </div>
+  </aside>
+  <textarea id='notes'> Notes:
+      </textarea>
+</body>
+</html>
