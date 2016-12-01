@@ -1,0 +1,103 @@
+body {
+  font-family: Tahoma, sans-serif;
+  font-size: .9em;
+  margin: -1px;
+  background-color: #056571;
+  border-radius: 8px;
+}
+
+header {
+  background-color: #FF6A5C;
+  color: #383838;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 30px;
+  box-shadow: 1px 3px 3px 1px;
+  text-shadow: 1px 2px 4px;
+  border-bottom: slategray 5px dashed;
+}
+
+button {
+  width: 80px;
+  text-align: center;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 35px;
+  background-color: white;
+  color: #1a1a1a;
+  border: #FF6A5C solid 5px;
+  border-radius: 10%;
+  box-shadow: 1px 3px 3px 1px;
+  cursor: pointer;
+  text-shadow: 1px 2px 2px;
+}
+
+input,
+#notes {
+  padding-top: 8px;
+  width: 250px;
+  background-color: white;
+  color: black;
+  border: #FF6A5C double 5px;
+  border-radius: 10px;
+  text-align: right;
+  box-shadow: 1px 3px 3px 1px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 40px;
+}
+
+#notes {
+  position: fixed;
+  top: 220px;
+  left: 890px;
+  width: 300px;
+  height: 200px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 25px;
+  border: #FF6A5C dashed 5px;
+  box-shadow: 1px 4px 4px 1px;
+  text-align: left;
+}
+
+#aside {
+  position: relative;
+  width: 100%;
+}
+
+#operations {
+  position: fixed;
+  top: 250px;
+  left: 240px;
+  width: 100px;
+}
+
+#misc {
+  position: fixed;
+  top: 250px;
+  left: 670px;
+  width: 100px;
+}
+
+#calc {
+  position: fixed;
+  left: 300px;
+  width: 400px;
+  top: 220px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #FF5045;
+  border-color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  -webkit-transition: background-color .4s;
+  transition: background-color .4s;
+}
+
+button:active {
+  background-color: #FF968F;
+  box-shadow: 0 8px #666;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
